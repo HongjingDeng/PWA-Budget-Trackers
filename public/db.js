@@ -6,10 +6,12 @@ const indexedDB =
   window.shimIndexedDB;
 
 let db;
+//create a new db request 
 const request = indexedDB.open("budget", 1);
 
 request.onupgradeneeded = ({ target }) => {
-  let db = target.result;
+  //create object store called "pending" and set autoIncrement to true
+  const db = target.result;
   db.createObjectStore("pending", { autoIncrement: true });
 };
 
