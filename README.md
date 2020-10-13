@@ -29,4 +29,4 @@ Giving users a fast and easy way to track their money is important, but allowing
 ## Screenshots of Deployed Page
 ### 
 - ![online](./public/images/demo-online.png)
-- ![offline](./public/images/demo-offline.png)
+- ![offline](./public/images/online-offline.png)
